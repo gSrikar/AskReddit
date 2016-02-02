@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Ask Reddit</string>
+    <string name="title_activity_web_view">Details</string>
+    <string name="action_settings">Settings</string>
+    <string name="retry_button">Retry</string>
+    <string name="up_textView">Ups</string>
+    <string name="thread_title_textView">Thread Title</string>
+    <string name="created_textView">Created</string>
+    <string name="by_textView">by</string>
+    <string name="author_textView">Author</string>
+    <string name="comments_number_textView">C No.</string>
+    <string name="comments_textView">Comments</string>
+</resources>

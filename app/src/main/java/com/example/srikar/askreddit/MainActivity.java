@@ -164,12 +164,14 @@ public class MainActivity extends AppCompatActivity {
                     public void onResponse(JSONObject response) {
                         progressBar.setVisibility(View.GONE);
                         mSwipeRefreshLayout.setRefreshing(false);
-                        try {
-                            parseJSONData(response);
-                        } catch (JSONException e) {
-                            e.printStackTrace();
-                            Snackbar.make(coordinatorLayout, e.getMessage(), Snackbar.LENGTH_LONG).show();
-                            Log.e(LOG_TAG, "JSON Exception: ", e);
+                        if (response != null && response.length > 0) {
+                            try {
+                                parseJSONData(response);
+                            } catch (JSONException e) {
+                                e.printStackTrace();
+                                Snackbar.make(coordinatorLayout, e.getMessage(), Snackbar.LENGTH_LONG).show();
+                                Log.e(LOG_TAG, "JSON Exception: ", e);
+                            }
                         }
                     }
                 }, new Response.ErrorListener() {

@@ -3,4 +3,4 @@ AskReddit application displays the Ask Reddit section of the Reddit website. The
 
 ![Ask Reddit Screenshot 1](https://raw.github.com/gSrikar/AskReddit/master/screenshots/AskReddit-Screenshot_2016-02-03.jpeg)
 
-![Ask Reddit Screenshot 2](https://raw.github.com/gSrikar/AskReddit/master/screenshots/AskReddit-Screenshot_2016-02-03 (2).jpeg)
+![Ask Reddit Screenshot 2](https://raw.github.com/gSrikar/AskReddit/master/screenshots/AskReddit-Screenshot_2016-02-03%20(2).jpeg)
